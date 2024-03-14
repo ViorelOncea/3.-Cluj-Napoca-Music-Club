@@ -1,0 +1,178 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 16px;
+  margin: 0;
+  background-color: rgb(81, 121, 206);
+}
+
+nav {
+  display: flex;
+  padding-top: 1rem;
+  background-color: rgba(81, 131, 53, 0.79);
+  color: rgb(50, 196, 183);
+  height: 3rem;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+nav p {
+  left: 25rem;
+  padding-bottom: 1rem;
+}
+
+.intro {
+  height: 24rem;
+  padding-top: 1rem;
+}
+
+.intro img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.intro h1 {
+  color: rgba(89, 181, 34, 0.78);
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  text-align: center;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  margin-left: 1.5rem;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  color: yellow;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.summary,
+.testimonial,
+.photos,
+.meetup {
+  margin: 4em auto;
+}
+
+.summary {
+  padding: 0 1rem;
+  line-height: 2rem;
+  padding-left: 2rem;
+}
+
+.summary p {
+  color: white;
+}
+
+.testimonial {
+  background-color: teal;
+  height: 10rem;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  color: yellow;
+  text-align: center;
+}
+
+.testimonial h1 {
+  font-size: 2rem;
+  color: yellow;
+  padding-bottom: 1rem;
+  padding-top: 2.1rem;
+}
+
+.testimonial p {
+  padding-top: 0.8rem;
+}
+
+.summary a {
+  text-decoration: underline;
+  color: rgb(47, 202, 163);
+}
+
+.summary h2 {
+  color: yellow;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.photos img {
+  width: 30%;
+  margin: 1.5%;
+}
+
+.photos .one {
+  align-items: center;
+}
+
+.meetup {
+  margin-bottom: 0.8rem;
+}
+
+.meetup img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.meetup h1 {
+  color: yellow;
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 1048px) {
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .intro h1 {
+    margin-top: 3rem;
+  }
+
+  .intro {
+    max-height: 200px;
+  }
+
+  .photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .testimonial h1 {
+    font-size: 2rem;
+  }
+
+  .photos img {
+    width: 100%;
+  }
+}
